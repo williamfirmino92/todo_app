@@ -26,7 +26,7 @@ const Home = () => {
           name="todo"
           maxLength="255"
           value={todo}
-          placeholder="Create new todo..."
+          placeholder="Criar um novo todo..."
           onChange={handleInputChange}
         />  
         <Lista />

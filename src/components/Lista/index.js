@@ -71,21 +71,21 @@ const Lista = () => {
             {option === 1 && <Data list={actived}/>}
             {option === 2 && <Data list={completed}/>}
             <S.Footer>
-                <span>{actived.length} items left</span>
+                <span>{actived.length} items ativos</span>
                 <S.Center>
-                    <S.Button selected={option === 0} type='button' onClick={() => setOption(0)}>All</S.Button>
-                    <S.Button selected={option === 1} type='button' onClick={() => setOption(1)}>Actived</S.Button>
-                    <S.Button selected={option === 2} type='button' onClick={() => setOption(2)}>Completed</S.Button>
+                    <S.Button selected={option === 0} type='button' onClick={() => setOption(0)}>Todos</S.Button>
+                    <S.Button selected={option === 1} type='button' onClick={() => setOption(1)}>Ativo</S.Button>
+                    <S.Button selected={option === 2} type='button' onClick={() => setOption(2)}>Completo</S.Button>
                 </S.Center>
                 <span style={{ cursor: 'pointer'}} onClick={() => clearCompleted()}>
-                    Clear Completed
+                    Apagar completos
                 </span>
             </S.Footer>
         </S.ListOrdered>
         <S.FooterMobile>
-            <S.Button selected={option === 0} type='button' onClick={() => setOption(0)}>All</S.Button>
-            <S.Button selected={option === 1} type='button' onClick={() => setOption(1)}>Actived</S.Button>
-            <S.Button selected={option === 2} type='button' onClick={() => setOption(2)}>Completed</S.Button>
+            <S.Button selected={option === 0} type='button' onClick={() => setOption(0)}>Todos</S.Button>
+            <S.Button selected={option === 1} type='button' onClick={() => setOption(1)}>Ativo</S.Button>
+            <S.Button selected={option === 2} type='button' onClick={() => setOption(2)}>Completo</S.Button>
         </S.FooterMobile>
     </>
 );

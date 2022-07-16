@@ -4,9 +4,9 @@ export const TodoContext = createContext();
 
 const TodoProvider = ({children}) => {
     const [todos, setTodos] = useState([
-        { id: 1, text: 'Comprar leite', done: false},
-        { id: 2, text: 'Comprar pão', done: true},
-        { id: 3, text: "Fazer o que é bom",done: false}
+        { id: 1, text: 'Estudar react', done: false},
+        { id: 2, text: 'Estudar inglês', done: true},
+        { id: 3, text: "Ir para a academia",done: false}
     ])
 
     const saveNewTodo = todo => {
