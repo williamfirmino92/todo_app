@@ -40,7 +40,7 @@ O projeto é a conclusão de aprendizados do módulo V da RESÍLIA EDUCAÇÃO. N
 ## 📌 Clonando e rodando a aplicação:
 
 1 - Clone o repositório
-$ git clone https://github.com/williamfirmino92/ProjetoMod5.git
+$ git clone https://github.com/williamfirmino92/todo_app.git
 
 2 - Entre no repositório
 $ cd ProjetoMod5
